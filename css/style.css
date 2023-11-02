@@ -16,6 +16,46 @@
     text-decoration: none;
 }
 
+.sconto {
+    color: white;
+    background-color: red;
+    padding: 6px;
+}
+
+.sostenibilità {
+    color: white;
+    background-color: green;
+    padding: 6px;
+}
+
+.heart {
+    background-color: white;
+    padding: 6px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 90px;
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.brand {
+    font-size: 0.8em;
+}
+
+.discounted-price {
+    color: red;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
 /* 
     HEADER
 */
@@ -63,9 +103,14 @@
 
 .card {
     width: calc(100% / 3 - 10px);
-    height: 450px;
     margin-bottom: 10px;
     border: 1px dashed black;
+    position: relative;
+}
+
+.main-container .card-container .card img {
+    width: 100%;
+    display: block;
 }
 
 /* 
