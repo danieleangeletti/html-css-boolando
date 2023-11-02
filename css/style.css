@@ -124,6 +124,16 @@
     display: block;
 }
 
+.main-container .card-container .card .hide {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.main-container .card-container .card:hover .hide {
+    display: block;
+}
+
 /* 
     FOOTER
 */
