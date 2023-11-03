@@ -77,6 +77,9 @@
     background-color: #FF6801;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .nav-container {
@@ -101,6 +104,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .card-container {
